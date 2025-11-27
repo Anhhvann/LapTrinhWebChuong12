@@ -20,7 +20,7 @@ public class SqlGatewayServlet extends HttpServlet {
             Class.forName("com.mysql.cj.jdbc.Driver");
             
             // get a connection
-            String dbURL = "jdbc:mysql://mysql-16b7e0ab-anhanh190205-8701.g.aivencloud.com:25093/sqlgateway?useSSL=true&requireSSL=true&serverTimezone=UTC\n";
+            String dbURL = "jdbc:mysql://mysql-16b7e0ab-anhanh190205-8701.g.aivencloud.com:25093/sqlgateway?useSSL=true&requireSSL=true&serverTimezone=UTC";
             String username = "avnadmin";
             String password = "AVNS_1w15-598LnNCYePvdQI";
             Connection connection = DriverManager.getConnection(
